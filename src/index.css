@@ -1,0 +1,76 @@
+/* BASIC STYLING*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body {
+  font-family: 'DM Serif Display', serif;
+  margin: 0 auto;
+  padding-left: 35rem;
+  padding-right: 8rem;
+  padding-top: 2.5rem;
+  padding-bottom: 8rem;
+  float: center;
+}
+
+h1 {
+  color:blueviolet;
+  padding: 2 rem;
+  font-size: 5rem;
+}
+
+h1:hover {
+  color: black;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+  margin: 0 auto;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float:left;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 7rem;
+  height: 7rem;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 7rem;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin: 2rem;
+  padding: 2rem;
+  color: blueviolet;
+  font-size: 1.5rem;
+}
+
+.game-info ol {
+  list-style-type: none;
+}
+
